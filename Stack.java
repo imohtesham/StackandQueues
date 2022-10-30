@@ -45,11 +45,12 @@ public class Stack<T> {
         int size = nums.size();
         System.out.println("Size of stack: " + size);
 
-        while (! nums.isEmpty()) {
+        while (!nums.isEmpty()) {
             System.out.println(nums.peek());
             nums.pop();
         }
 
         System.out.println("Elements in stack after popping:");
         nums.show();
-    }}
+    }
+}
